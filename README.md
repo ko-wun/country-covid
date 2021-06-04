@@ -35,7 +35,7 @@ The data are retrieved from MongoDB Atlas in JSON using HTTP GET request, but di
 
 1) Top three countries searched
 2) Average request completion time (in milliseconds) 
-3) Top three phone models used \
+3) Top three phone models used 
 
 If there are no three distinct elements for operation analytics 1) and 3), only the top < 3 elements are displayed. 
 
