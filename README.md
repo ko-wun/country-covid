@@ -4,7 +4,7 @@
 This Android application retrieves user selected country's COVID-19 deaths, confirmed, and recovered statistics using a 3rd party API. The web service is deployed to Heroku and is also connected to MongoDB Atlas, which logs user activity and queries on the Android application. Furthermore, a web browser displays the logs of user activity for further analysis through HTTP request. The project implements a MVC model. 
 
 # Android Application 
-The application uses HTTP POST and GET requests. The POST is used for handling Android requests because it is making changes to the MongoDB by logging the request/reply information. GET is used by the dashboard to get data from MongoDB database. 
+The application uses HTTP POST and GET requests. The POST is used for handling Android requests because it is making changes to the MongoDB Atlas Database by logging the request/reply information. GET is used by the dashboard to get data from MongoDB database. 
 
 Here is a screenshot of the initial application layout:\
 ![image](https://github.com/kowunk/country-covid/blob/master/images/androidapp1.png)
@@ -15,8 +15,8 @@ The application takes in user selection input using a spinner that is populated 
 Here is a screenshot of when user selects Argentina:\
 ![image](https://github.com/kowunk/country-covid/blob/master/images/androidapp3.png)
 
-# MongoDB
-Several Android application user activity data are stored into MongoDB: 
+# MongoDB Atlas 
+Several Android application user activity data are stored into MongoDB Atlas Database: 
 1) Time request was made
 2) Time request was completed 
 3) Phone model making the request 
