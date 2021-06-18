@@ -9,7 +9,7 @@ The application uses HTTP POST and GET requests. Based on HTTP protocol, HTTP PO
 Here is a screenshot of the initial application layout:\
 ![image](https://github.com/kowunk/country-covid/blob/master/images/androidapp1.png)
 
-The application takes in user selection input using a spinner that is populated with country names. Below is a screenshot of the country list that is shown when user clicks on the spinner. The default country is Afghanistan, which is the first country on the list.
+The application takes in user selection input using a spinner that is populated with country names. Below is a screenshot of the country list that is shown when user clicks on the spinner. The country list is in alphabetical order, and the default country is Afghanistan, the first country on the list.
 ![image](https://github.com/kowunk/country-covid/blob/master/images/androidapp2.png)
 
 Here is a screenshot of when user selects Argentina:\
